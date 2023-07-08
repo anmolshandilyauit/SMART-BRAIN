@@ -1,31 +1,24 @@
 {
-  "name": "facerecognitionbrain",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "particles-bg": "^2.5.5",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-parallax-tilt": "^1.7.67",
-    "react-scripts": "^5.0.1",
-    "tachyons": "^4.12.0"
-  },
+  "name": "node",
+  "version": "1.0.0",
+  "main": "script.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "start": "nodemon server.js"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.20.0",
+    "clarifai": "^2.9.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "knex": "^2.3.0",
+    "pg": "^8.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "description": ""
 }
